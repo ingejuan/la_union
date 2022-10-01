@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+*html {
+    font-size: 10px;
+}
+
+.encabezado {
+    background-color: rgb(98, 19, 189);
+    background-position: center;
+    padding: 2rem;
+    margin: auto;
+    /*height: vh;*/
+    width: 20%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    position: relative;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li a{
+    background-color: cornflowerblue;
+    text-decoration: none;
+    color: white;
+    padding: 3px 10px;
+    margin: 0px 3px;
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li:hover div{
+    display: block;
+}
+nav ul li div{
+    display: none;
+    top: 22px;
+    left: 0%;
+    width: 1500px;
+    position: absolute;
+    background-color: antiquewhite;
+    border: 2px solid orangered;
+    width: 100%;
+}
+
+nav ul li ul{
+    float: left;
+}
+
+nav ul li ul li{
+    display: block;
+}
+
